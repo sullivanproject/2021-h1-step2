@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>날씨따라 바뀌는 일러스트 만들기</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <h1 id="title" class="title"></h1>
+      <p id="weather-info" class="weather-info"></p>
+      <div class="weather-card-wrapper">
+        <img
+          id="weather-img"
+          class="weather-img"
+          src="./images/img-bg800.JPG"
+        />
+        <img
+          id="person-img"
+          class="person-img"
+          src="./images/img-person2.PNG"
+        />
+      </div>
+      <button id="date-picker" class="date-picker">
+        다른 날짜도 볼래<span class="material-icons"> expand_more </span>
+      </button>
+      <div class="date-card-wrapper hidden"></div>
+    </main>
+    <script src="./script.js"></script>
+  </body>
+</html>
